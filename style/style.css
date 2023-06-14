@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 
@@ -14,13 +14,23 @@
 
 body {
     background-color: var(--color1);
+    
+}
+
+img {
+    width: 600px;
+    display: block;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 100px;
+    
 }
 
 nav ul {
     list-style: none;
-    
+    text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     
 }
 
@@ -34,6 +44,13 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+#txt-perfil {
+    background-color: aqua;
+    width: 900px;
+    margin-left: 80px;
+    margin-top: 280px;
 }
 
 
