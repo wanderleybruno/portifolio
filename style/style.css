@@ -1,56 +1,140 @@
-@charset "UTF-8";
-
-*{
-    margin: 0;
-    padding: 0px;
-}
-
-
-:root {
-    --color1:rgba(50, 50, 51, 0.884);
-    --color2:rgba(0, 0, 0, 0.911);
-    --font-principal: Arial, Helvetica, sans-serif;
-}
-
+/* Estilos gerais */
 body {
-    background-color: var(--color1);
-    
-}
-
-img {
-    width: 600px;
-    display: block;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 100px;
-    
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 10px;
-    
-}
+    padding: 0;
+    background-color: #9e9d9dcb;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-nav li {
-    display: inline-block;
-    margin-right: 10px;
-    
-    
-}
 
-nav a {
-    color: white;
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: right;
+    
+    
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 10px;
+    
+    
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  nav a {
+    color: #fff;
     text-decoration: none;
-}
+  }
+  
+  /* Estilos da seção hero */
+  #hero {
+    background-image: url("#");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos das seções */
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 
-#txt-perfil {
-    background-color: aqua;
-    width: 900px;
-    margin-left: 80px;
-    margin-top: 280px;
-}
+
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos dos projetos */
+  .project-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos do formulário de contato */
+  form input,
+  form textarea {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
 
 
