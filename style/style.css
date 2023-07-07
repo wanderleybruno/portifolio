@@ -22,19 +22,11 @@ body {
   background-color: rgba(103, 104, 103, 0.629);
   position: absolute;
   margin-top: 25px;
+  display: block;
   
 }
 
-.conteudo-principal p {
-  color: white;
-  position: relative;
-  margin-top: -195px;
-  font-size: 1.2em;
-  width: 650px;
-  height: 450px;
-  
 
-}
 
 .menu {
   font-family: 'Kanit', sans-serif;
@@ -53,9 +45,20 @@ body {
 
 .img > img {
   display: block;
-  width: 350px;
-  height: 350px;
-  margin-top:5%;
+  width: 450px;
+  height: 450px;
+  margin-top:10%;
   margin-left: 10%;
+}
+
+.sobre p {
+  
+  text-align: center;
+  display: block;
+  left: 40%;
+  font-size: 1.3em;
+  
+  
+  
 }
 
