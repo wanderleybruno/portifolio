@@ -67,7 +67,7 @@ nav li:hover {
 .txt-apresentacao  {
   
   width: 55%;
-  height: 60%;
+  height: auto;
   background-color: rgba(33, 210, 223, 0.651);
   float: right;
   position: relative;
@@ -76,7 +76,7 @@ nav li:hover {
   border-bottom-right-radius: 100px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  overflow-y: auto;
+  
   
 }
 
@@ -96,7 +96,7 @@ nav li:hover {
 .txt-apresentacao p {
   margin: 50px 20px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.0em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   font-weight: 500;
