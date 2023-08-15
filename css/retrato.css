@@ -27,6 +27,7 @@ html, body {
         text-align: center;
         padding: 5px;
         font-size: 40px;
+        cursor: pointer;
     }
 
     span#burguer:hover {
@@ -34,10 +35,13 @@ html, body {
         color: black;
     }
 
+   
+
     nav {
         width: 100%;
         height: 40px;
         background-color: rgb(188, 204, 45);
+        display: none;
     }
 
 
