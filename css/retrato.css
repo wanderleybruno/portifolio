@@ -13,7 +13,11 @@ html, body {
 
 @media screen and (max-width: 600px) {
 
-    header h2 {
+    .cabecalho {
+        background-color: black;
+    }
+
+    header h2, h4 {
         text-align: center;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,6 +72,54 @@ html, body {
         text-decoration: none;
         
     }
+
+
+
+
+
+
+
+    .txt-nome {
+        color: lime; 
+        font-family: "Courier";
+        font-size: 20px;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        animation: type 6s steps(60, end) infinite; 
+        animation-timing-function: linear;
+        
+       
+        
+        
+      }
+      
+      .txt-nome:nth-child(2){
+        
+        animation-name: type2;
+        
+       
+      }
+
+     
+      @keyframes type{ 
+        from { width: 0; } 
+      } 
+      
+      @keyframes type2{
+        0%{width: 0;}
+        50%{width: 0;}
+        100%{ width: 100; } 
+      } 
+      
+      
+      
+      
+      
+     
+      
+      
 
 
 
