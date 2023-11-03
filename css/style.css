@@ -11,6 +11,48 @@ html, body {
     background-color: rgb(148, 143, 143);
 }
 
+.center {
+    max-width: 1300px;
+}
+
+
+header {
+    background-color: rgb(219, 217, 217);
+    width: 100%;
+    height: auto;
+}
+
+.logo img {
+    width: 150px;
+    margin: 15px 20px;
+    
+}
+
+nav {
+    
+    float: right;
+    margin-top: -55px;
+    
+    
+    
+    
+}
+
+nav a {
+    margin-left: 110px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: black;
+    
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+
 
 
 
