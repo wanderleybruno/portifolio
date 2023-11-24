@@ -47,7 +47,7 @@ header ul li a {
     padding: 8px;
     
     font-size: 20px;
-    color: rgb(29, 12, 187);
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.747);
     
     
@@ -60,7 +60,9 @@ header a:active {
 
 header a:hover {
     color: white;
-    text-shadow: 1px 1px 5px blue;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    
+    
 }
 
 .sociais {
