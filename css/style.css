@@ -69,7 +69,7 @@ header a:hover {
     float: right; /* Adicione esta linha para alinhar à direita */
     margin-right: 20px; /* Adicione margem direita para separar os ícones da direita */
     margin-top: -30px;
-    vertical-align: middle;
+    
     
 }
 
@@ -88,6 +88,42 @@ header a:hover {
 .sociais button:hover {
     transform: scale(1.4);
     transition: transform 0.4s;
+}
+
+/* Extra small devices (phones, 400px and down) */
+/* Dispositivos extras pequenos (telefones, 400px e para baixo) */
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: rgb(0, 128, 6);
+    }
+
+    .nav img {
+        width: 120px;
+        display: block;
+        margin: -10px auto;
+    }
+
+    header ul {
+        text-align: center;
+        margin: 5px auto;
+        
+        
+    }
+
+    .sociais {
+        display: none;
+        margin: 20px ;
+        
+        
+    }
+    
+   
+    
+ 
+    
+
+
+ 
 }
 
 

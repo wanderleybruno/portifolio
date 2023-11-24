@@ -10,18 +10,16 @@ html, body {
     height: 100%;
 }
 
-/* Extra small devices (phones, 400px and down) */
-@media only screen and (max-width: 767px) {
-    body {
-        background-color: rgb(0, 47, 128);
-    }
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 768px) {
+/* Dispositivos pequenos (tablets de retrato e telefones grandes, 600px e acima) */
+@media screen and (min-width: 768px) {
     body {
         background-color: red;
     }
+
+   
 
     
 }
@@ -29,6 +27,7 @@ html, body {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+/* Dispositivos grandes (laptops/desktops, 992px e up) */
 @media only screen and (min-width: 1100px) {
     body {
         background-color: aqua;
