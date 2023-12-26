@@ -8,6 +8,7 @@
 
 html, body {
     height: 100%;
+    background-color: rgba(88, 85, 85, 0.755);
     
     
 }
@@ -16,7 +17,7 @@ header {
     background-color: gray;
     width: 100%;
     height: 100px;
-    position: absolute;
+    
     box-shadow: 2px 2px 5px black;
 }
 
@@ -45,7 +46,6 @@ header ul li a {
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 8px;
-    
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.747);
@@ -59,7 +59,7 @@ header a:active {
 }
 
 header a:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.546);
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
     
     
@@ -69,6 +69,7 @@ header a:hover {
     float: right; /* Adicione esta linha para alinhar à direita */
     margin-right: 20px; /* Adicione margem direita para separar os ícones da direita */
     margin-top: -30px;
+    display: block;
     
     
 }
@@ -89,6 +90,35 @@ header a:hover {
     transform: scale(1.4);
     transition: transform 0.4s;
 }
+
+.principal {
+    
+    max-width: 1600px;
+    background-color: gray;
+    width: 100%;
+    height: 900px;
+    margin: 5px auto;
+     
+    
+}
+
+.principal .texto-apresentacao {
+
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+}
+
+.principal .texto-apresentacao p {
+    width: 70%;
+    margin: 250px 12%;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
 
 /* Extra small devices (phones, 400px and down) */
 /* Dispositivos extras pequenos (telefones, 400px e para baixo) */
@@ -117,7 +147,11 @@ header a:hover {
         
     }
 
-    
+    .principal {
+        
+        background-color: green;
+          
+      }
     
    
     
