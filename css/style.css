@@ -22,15 +22,19 @@ header {
 }
 
 
-header img {
-   width: 200px; 
-   margin: -30px -10px;
-   
+.nav h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: left;
+    padding: 20px;
+
+    
 }
 
 header ul {
     text-align: center;
-    margin-top: -75px;
+    margin-top: -45px;
+
     
 }
 
@@ -58,12 +62,13 @@ header ul li a {
 header a:hover {
     color: rgba(4, 4, 4, 0.73);
     
+    
 }
 
 .sociais {
     float: right; /* Adicione esta linha para alinhar à direita */
     margin-right: 20px; /* Adicione margem direita para separar os ícones da direita */
-    margin-top: -30px;
+    margin-top: -25px;
     display: block;
     
     
