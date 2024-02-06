@@ -14,11 +14,11 @@ html, body {
 }
 
 header {
-    background-color: rgb(79, 145, 237);
+    
     width: 100%;
     height: 100px;
     
-    box-shadow: 2px 2px 5px black;
+    
 }
 
 
@@ -59,11 +59,7 @@ header ul li a {
 
 
 
-header a:hover {
-    color: rgba(4, 4, 4, 0.73);
-    
-    
-}
+
 
 .sociais {
     float: right; /* Adicione esta linha para alinhar à direita */
