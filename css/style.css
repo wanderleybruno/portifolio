@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 *{
     margin: 0;
     padding: 0;
@@ -8,164 +6,43 @@
 
 html, body {
     height: 100%;
-    background-image: linear-gradient(to top, rgba(151, 151, 237, 0.779), blue);
-    
-    
+    background-color:#080C31 ;
 }
 
-header {
-    
+nav {
     width: 100%;
-    height: 100px;
-    
-    
 }
 
-
-.nav h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    text-align: left;
-    padding: 20px;
-
-    
-}
-
-header ul {
-    text-align: center;
-    margin-top: -45px;
-
-    
-}
-
-header ul li {
+.menu ul li{
     display: inline;
-    margin-left: 2%;
-    
- 
-}
-
-header ul li a {
-    text-decoration: none;
+    padding: 35px;
     font-size: 16px;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 8px;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.747);
     
     
 }
 
-
-
-
-
-.sociais {
-    float: right; /* Adicione esta linha para alinhar à direita */
-    margin-right: 20px; /* Adicione margem direita para separar os ícones da direita */
-    margin-top: -25px;
-    display: block;
-    
-    
-}
-
-.sociais button {
-    
-    background-color: #4F91ED;
-    border: none;
-    font-size: 30px;
-    margin-right: 30px;
-    position: relative;
-    float: none;
-    cursor: pointer;
-    
-}
-
-.sociais button:hover {
-    transform: scale(1.4);
-    transition: transform 0.4s;
-    
-}
-
-.principal {
-    
-    max-width: 1600px;
-    background-color: rgba(128, 128, 128, 0.342);
-    width: 100%;
-    height: 900px;
-    margin: 5px auto;
-     
-    
-}
-
-.principal .texto-apresentacao {
-
-    color: rgb(255, 255, 255);
-    position: absolute;
-    
-}
-
-.principal .texto-apresentacao p {
-    width: 70%;
-    margin: 250px 12%;
-    font-size: 22px;
+.menu ul {
+    margin-top: 30px;
     text-align: center;
-    display: block;
-    font-family: 'IBM Plex Mono', monospace;
-    
 }
 
-
-/* Extra small devices (phones, 400px and down) */
-/* Dispositivos extras pequenos (telefones, 400px e para baixo) */
-@media only screen and (max-width: 767px) {
-    body {
-        background-color: rgb(0, 128, 6);
-    }
-
-    .nav img {
-        width: 120px;
-        display: block;
-        margin: -10px auto;
-    }
-
-    header ul {
-        text-align: center;
-        margin: 5px auto;
-        
-        
-    }
-
-    .sociais {
-        display: none;
-        margin: 20px ;
-        
-        
-    }
-
-    .principal {
-        
-        background-color: green;
-          
-      }
-    
-   
-    
- 
-    
-
-
- 
+.menu ul li a {
+    font-family: "Inter Tight", sans-serif;
+    color: white;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
+input#contato {
+    font-size: 16px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:#535EC2 ;
+    color: white;
+    width: 148px;
+    height: 32px;
+    margin-left: 500px;
+}
 
