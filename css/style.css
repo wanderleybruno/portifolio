@@ -11,7 +11,6 @@ html, body {
 
 nav {
     width: 100%;
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +38,7 @@ nav img {
 
 .menu ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
     font-size: 16px;
 }
 
@@ -51,6 +50,7 @@ nav img {
 
 .botao-contato {
     display: inline-block; /* Permite que o botão compartilhe a linha com outros elementos */
+    margin-right: 15px;
     
     
     
@@ -59,18 +59,49 @@ nav img {
 .botao-contato button {
     background-color: #535EC2;
     color: white;
-    padding: 10px;
+    padding: 10px 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.botao-contato button:hover {
+    background-color:#737ee2 ;
 }
 
 .center {
     max-width: 1320px;
     margin: 30px auto;
-    background-color: rgba(128, 128, 128, 0.253);
+    background-color: rgba(221, 218, 218, 0.596);
     width: 100%;
     height: 800px;
+    display: flex;
+    
+}
+
+.txt-inicio {
+    margin: 200px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+
+
+}
+
+.txt-inicio h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.txt-inicio h2 {
+    font-size: 66px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
