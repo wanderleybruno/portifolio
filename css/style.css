@@ -5,9 +5,8 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
-    background-color: #080C31;
+    
+    background-color: #080c31;
     overflow-x: hidden;
 }
 
@@ -48,18 +47,19 @@ nav img {
     font-family: "Inter Tight", sans-serif;
     color: white;
     text-decoration: none;
+    cursor: pointer;
     
 }
 
 .menu ul li a:hover {
     border-bottom: 1px solid white;
-    
-    
+    color: #6ADAB8;
+    transition: .9s;
 }
 
 .botao-contato {
     display: inline-block; /* Permite que o botão compartilhe a linha com outros elementos */
-    margin-right: 15px;
+    margin-right: 25px;
     
     
     
@@ -82,14 +82,13 @@ nav img {
     background-color:#737ee2 ;
 }
 
-main {
-    position: absolute;
-}
+
 
 .center {
     max-width: 1520px;
+    height: 100%;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px auto;
     background-color: rgba(221, 218, 218, 0.11);
     display: flex;
     position: absolute;
@@ -102,7 +101,7 @@ main {
 }
 
 .txt-inicio {
-    
+    position: relative;
     margin: 200px;
     font-size: 30px;
     color: white;
@@ -156,34 +155,39 @@ main {
 
 .img-cod img {
     max-width: 300px;
-    margin: 130px 170px;
+    margin: 150px 170px;
     
     
  
 }
 
 .apresentacao {
-    margin-top: 150px;
+    margin-top: 260px;
     max-width: 1200px;
     width: 100%;
-    
     position: absolute;
-    background-color: rgba(128, 128, 128, 0.226);
-    display: block;
+    background-color: rgba(128, 128, 128, 0);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}   
+.apresentacao h1 {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}    
     
     
-    
-    
-}
+
 
 .apresentacao p {
     color: white;
-    
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
+    
+    line-height: 42px;
     
 }
 
