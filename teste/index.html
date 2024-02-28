@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+
+        <nav class="menu">
+
+            
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">PORTIFÓLIO</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">EXPERIÊNCIAS</a></li>
+            </ul>
+    
+            <div class="botao-contato">
+                <a href="#"><button class="botao-contato">CONTATO</button></a>
+            </div>
+    
+        </nav>
+
+        <h1>Bruno Santos</h1>
+        <p>Desenvolvedor Web</p>
+        <!-- Adicione links para suas redes sociais aqui -->
+        <p>LinkedIn | GitHub | Twitter</p>
+    </header>
+
+    <section class="apresentacao">
+
+        <p>Olá, meu nome é Bruno dos Santos, recém-formado em Análise e Desenvolvimento de Sistemas. Trago uma combinação única de habilidades ao unir meu conhecimento técnico com uma sólida base em design gráfico, utilizando ferramentas como Figma e Photoshop.</p>
+
+           <p> Meu interesse apaixonado pela área de desenvolvimento web motiva-me a buscar desafios inovadores e projetos criativos. Estou entusiasmado para contribuir com meu conjunto de habilidades na criação de soluções envolventes e funcionais para o mundo online.</p>
+
+          
+
+    </section>
+
+    <div class="img-cod">
+        <img src="image/icon-coder.png" alt="icon">
+    </div>
+
+    <section class="projects-section">
+        <!-- Card do Projeto 1 -->
+        <div class="project-card" onclick="mostrarDetalhes('Projeto 1')">
+            <h2>Projeto 1</h2>
+            <p>Descrição breve do projeto.</p>
+        </div>
+
+        <!-- Card do Projeto 2 -->
+        <div class="project-card" onclick="mostrarDetalhes('Projeto 2')">
+            <h2>Projeto 2</h2>
+            <p>Descrição breve do projeto.</p>
+        </div>
+
+        <!-- Card do Projeto 3 -->
+        <div class="project-card" onclick="mostrarDetalhes('Projeto 3')">
+            <h2>Projeto 3</h2>
+            <p>Descrição breve do projeto.</p>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Adicione informações de contato, como e-mail -->
+        <p>Email: wanderley.bruno@gmail.com</p>
+        <p>Telefone: (21) 98048 - 8310</p>
+        <button onclick="mostrarMensagem()">Contato</button>
+    </footer>
+</body>
+</html>
