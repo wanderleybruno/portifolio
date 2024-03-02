@@ -22,8 +22,8 @@ nav {
 }
 
 .menu {
-    margin-top: 20px;
-    width: 100%;
+    margin-top: 10px;
+    width: 80%;
     text-align: right; /* Alinha o texto à direita */
     
  
@@ -87,19 +87,24 @@ nav img {
 }
 
 .center {
-    background-color: rgba(128, 128, 128, 0);
+    
+    background-color: rgba(128, 128, 128, 0.26);
+    width: 100%;
     max-width: 1400px;
     height: 1200px;
-   
+    position: relative;
    
     width: 100%; /* Ocupa toda a largura disponível */
-    margin: 20px 0; /* Ajusta a margem para centralizar verticalmente */
+    margin: 80px 0; /* Ajusta a margem para centralizar verticalmente */
     
     
 }
 
 .inicio {
     display: flex;
+    
+    
+    
 }
 
 .eu-sou {
@@ -167,4 +172,41 @@ nav img {
     background-color: #7984e9;
     cursor: pointer;
 
+}
+
+.sobre-mim {
+    width: 100%;
+    max-width: 1440px;
+    margin: -100px auto;
+    position: absolute;
+    
+    
+}
+
+.sobre-mim h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: "IBM Plex Mono", monospace;
+    margin-top: -80px;
+    
+    
+}
+
+.img-sobre-mim img  {
+    margin: 110px 90px;
+    
+    
+}
+
+.sobre-mim p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "IBM Plex Mono", monospace;
+    text-align: justify;
+    width: 60%;
+    max-width: 1000px;
+    margin: -292px 360px;
 }
