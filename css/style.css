@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #080c31;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -22,6 +22,7 @@ nav {
 }
 
 .menu {
+    margin-top: 20px;
     width: 100%;
     text-align: right; /* Alinha o texto à direita */
     
@@ -86,7 +87,7 @@ nav img {
 }
 
 .center {
-    background-color: rgba(128, 128, 128, 0.178);
+    background-color: rgba(128, 128, 128, 0);
     max-width: 1400px;
     height: 1200px;
    
