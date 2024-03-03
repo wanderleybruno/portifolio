@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --font-principal: "IBM Plex Mono", monospace;
+}
+
 body {
     
     display: flex;
@@ -222,20 +226,43 @@ nav img {
 .projetos .cards {
     width: 90%;
     margin: 50px auto;
-    background-color: green;
+    background-color: rgba(156, 160, 156, 0);
     
 
 }
 
 .projetos .card {
-    width: 344px;
-    height: 372px;
-    background-color: gray;
+    width: 340px;
+    height: 370px;
+    background-color: rgba(128, 128, 128, 0.548);
     border-radius: 50px;
-    
-
+    margin: 0 50px;
+    background-image: url(../image/projeto01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
+
+
+.projetos .card1 p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "IBM Plex Mono", monospace;
+    text-align: justify;
+    width: 50%;
+    max-width: 1000px;
+    margin: -320px 420px;
+    position: absolute;
+ 
+}
+
+.projetos .card:hover {
+    opacity: .2;
+    
+}
 
 
 
