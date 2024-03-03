@@ -91,7 +91,7 @@ nav img {
     background-color: rgba(128, 128, 128, 0.26);
     width: 100%;
     max-width: 1400px;
-    height: 1200px;
+    height: auto;
     position: relative;
    
     width: 100%; /* Ocupa toda a largura disponível */
@@ -210,3 +210,33 @@ nav img {
     max-width: 1000px;
     margin: -292px 360px;
 }
+
+.projetos h1 {
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.projetos .cards {
+    width: 90%;
+    margin: 50px auto;
+    background-color: green;
+    
+
+}
+
+.projetos .card {
+    width: 344px;
+    height: 372px;
+    background-color: gray;
+    border-radius: 50px;
+    
+
+}
+
+
+
+
+
