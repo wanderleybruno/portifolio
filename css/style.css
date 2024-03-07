@@ -264,6 +264,20 @@ nav img {
     
 }
 
+@media screen and (max-width: 430px) {
+   
+    nav img {
+        display: none;
+    }
+
+    
+
+    .botao-contato {
+        display: none;
+    }
+
+}
+
 
 
 
