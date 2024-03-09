@@ -152,9 +152,11 @@ nav img {
 
 .icon-coder img {
     width: 300px;
-    
-    
-    
+ 
+}
+
+.logo-mobile-top {
+    display: none;
 }
 
 #botao-projetos {
@@ -274,6 +276,10 @@ nav img {
 
     .botao-contato {
         display: none;
+    }
+
+    .logo-mobile-top {
+        display: block;
     }
 
 }
