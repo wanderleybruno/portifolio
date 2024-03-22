@@ -243,7 +243,7 @@ nav img {
     background-color: rgba(128, 128, 128, 0.548);
     border-radius: 50px;
     margin: 0 50px;
-    background-image: url(../image/projeto01.png);
+    background-image: url('../image/projeto01.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -272,26 +272,19 @@ nav img {
 
 @media screen and (max-width: 430px) {
    
-    nav img {
-        display: none;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .menu-mobile {
+    nav.menu-mobile {
         display: block;
+        width: 32px;
+        height: 32px;
+        
+        background-image: url('../image/lista-icon.png');
+
+        
     }
 
-    .botao-contato {
+    nav.menu {
         display: none;
     }
-
-    .logo-mobile-top {
-        display: block;
-    }
-
 }
 
 
