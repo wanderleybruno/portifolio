@@ -280,8 +280,12 @@ nav img {
         display: none;
     }
 
-    .menu-mobile {
+    nav.menu-mobile {
         display: block;
+        width: 32px;
+        height: 32px;
+        background-image: url('../image/menu-icon.png');
+        background-size: 100% 100%;
     }
 
     .botao-contato {
