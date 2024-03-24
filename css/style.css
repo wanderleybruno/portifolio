@@ -243,7 +243,7 @@ nav img {
     background-color: rgba(128, 128, 128, 0.548);
     border-radius: 50px;
     margin: 0 50px;
-    background-image: url(../image/projeto01.png);
+    background-image: url('../image/projeto01.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -280,22 +280,13 @@ nav img {
         display: none;
     }
 
-    nav.menu-mobile {
+    .menu-mobile {
         display: block;
-        width: 32px;
-        height: 32px;
-        background-image: url('../image/menu-icon.png');
-        background-size: 100% 100%;
     }
 
-    .botao-contato {
+    nav.menu {
         display: none;
     }
-
-    .logo-mobile-top {
-        display: block;
-    }
-
 }
 
 
