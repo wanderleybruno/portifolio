@@ -127,6 +127,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        height: 400px;
     }
 
     .mobile-menu .nav-item {
@@ -151,6 +152,8 @@ header {
         margin-right: -20px;
         
     }
+
+   
 }
 
 
