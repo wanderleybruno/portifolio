@@ -370,9 +370,10 @@ header {
     .eu-sou {
     
         color: white;
-        text-align: center;
+        text-align: left;
         position: relative;
-        margin: 20px auto;
+        margin: 30px 20px;
+        line-height: 54px;
         
         
     }
@@ -395,6 +396,7 @@ header {
         font-family: "IBM Plex Mono", monospace;
         font-weight: bold;
         white-space: nowrap; /* Impede a quebra de linha */
+        margin-top: -15px;
         
     }
 
