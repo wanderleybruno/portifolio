@@ -402,10 +402,11 @@ header {
 
    
     input#botao-projetos {
-        width: 100px;
-        height: 30px;
+        width: 8rem;
+        height: 1.8rem;
         background-color: #7984e9;
         margin: 0 20px;
+        border: none;
         
     }
 
