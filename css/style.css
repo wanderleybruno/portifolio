@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #080c31;
-    /* overflow-x: hidden; */
+    overflow-x: hidden; 
 }
 
 header {
@@ -88,91 +88,6 @@ header {
     color: white;
     text-decoration: none;
 }
-
-@media screen and (max-width:1050px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .logo img {
-         width: 80px;
-         margin-left: -30px;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .botao-contato button {
-        display: none;
-        
-    }
-
-   
-    .contato-botao button {
-        background-color: #7984e9;
-        width: 30%;
-        padding: 10px;
-        border-radius: 25px;
-        display: block;
-        margin: 10px auto;
-        
-    }
-
-    .contato-botao button a {
-        color: white;
-        text-decoration: none;
-        font-weight: 700;
-        letter-spacing: 5px;
-    }
-    
-
- 
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button {
-        background: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu-icon img {
-        width: 32px;
-    
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-        
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    
-    .open {
-        display:block ;
-        height: 100vh;
-    }
-
-    .mobile-menu-icon {
-        margin-right: -20px;
-        
-    }
-
-   
-}
-
-
-
-
 
 
 .center {
@@ -348,6 +263,89 @@ header {
 .projetos .card:hover {
     opacity: .2;
     
+}
+
+@media screen and (max-width:1050px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .logo img {
+         width: 80px;
+         margin-left: -30px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .botao-contato button {
+        display: none;
+        
+    }
+
+   
+    .contato-botao button {
+        background-color: #7984e9;
+        width: 30%;
+        padding: 10px;
+        border-radius: 25px;
+        display: block;
+        margin: 10px auto;
+        
+    }
+
+    .contato-botao button a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    
+
+ 
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon img {
+        width: 32px;
+    
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    
+    .open {
+        display:block ;
+        height: 100vh;
+    }
+
+    .mobile-menu-icon {
+        margin-right: -20px;
+        
+    }
+
+    
+
+   
 }
 
 
