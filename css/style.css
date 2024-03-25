@@ -27,7 +27,7 @@ body {
 
 header {
     box-shadow: 2px 2px 19px black;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -105,6 +105,7 @@ header {
 
 .inicio {
     display: flex;
+    
     
     
     
@@ -346,6 +347,26 @@ header {
         margin-right: -20px;
         
     }
+
+    .center {
+        margin: 0 auto;
+        width: 100vw;
+
+    }
+
+    .inicio {
+        display: block;
+        position: relative;
+        
+    }
+
+    .eu-sou h1 {
+         font-size: 42px;
+    }
+
+    
+
+
 
     
 
