@@ -400,6 +400,24 @@ header {
         
     }
 
+    .sobre-mim {
+        width: 100%;
+    }
+
+    .sobre-mim p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .projetos {
+        width: 100%;
+
+    }
+
+    .cards p {
+        margin: 0 auto;
+    }
+
   
 
 
