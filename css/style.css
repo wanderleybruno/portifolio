@@ -55,9 +55,11 @@ header {
     justify-content: center;
     list-style: none;
     
-    
-    
-    
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 .nav-item {
@@ -92,11 +94,16 @@ header {
         padding: 1.5rem 4rem;
     }
 
+    .logo img {
+         width: 80px;
+         margin-left: -30px;
+    }
+
     .nav-item {
         display: none;
     }
 
-    .login-button {
+    .botao-contato button {
         display: none;
     }
 
@@ -138,6 +145,11 @@ header {
 
     .open {
         display:block ;
+    }
+
+    .mobile-menu-icon {
+        margin-right: -20px;
+        
     }
 }
 
