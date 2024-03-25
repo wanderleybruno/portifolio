@@ -108,18 +108,24 @@ header {
         
     }
 
-    .mobile-menu .contato-button {
-        width: 30%;
-        height: 4%;
-        text-align: center;
+   
+    .contato-botao button {
         background-color: #7984e9;
+        width: 30%;
+        padding: 10px;
         border-radius: 25px;
-        margin: 30px auto;
-    }
-
-    .contato-button a {
+        display: block;
+        margin: 10px auto;
         
     }
+
+    .contato-botao button a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    
 
  
     .mobile-menu-icon {
@@ -151,9 +157,6 @@ header {
     }
 
     
-
-    
-
     .open {
         display:block ;
         height: 100vh;
