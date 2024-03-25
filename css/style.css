@@ -400,8 +400,18 @@ header {
         
     }
 
+   
+    input#botao-projetos {
+        width: 100px;
+        height: 30px;
+        background-color: #7984e9;
+        margin: 0 20px;
+        
+    }
+
     .sobre-mim {
         width: 100%;
+        margin-top: 250px;
     }
 
     .sobre-mim p {
@@ -409,15 +419,7 @@ header {
         margin: 0 auto;
     }
 
-    .projetos {
-        width: 100%;
-
-    }
-
-    .cards p {
-        margin: 0 auto;
-    }
-
+    
   
 
 
