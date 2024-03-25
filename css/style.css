@@ -105,8 +105,23 @@ header {
 
     .botao-contato button {
         display: none;
+        
     }
 
+    .mobile-menu .contato-button {
+        width: 30%;
+        height: 4%;
+        text-align: center;
+        background-color: #7984e9;
+        border-radius: 25px;
+        margin: 30px auto;
+    }
+
+    .contato-button a {
+        
+    }
+
+ 
     .mobile-menu-icon {
         display: block;
     }
@@ -127,7 +142,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
-        height: 400px;
+        
     }
 
     .mobile-menu .nav-item {
@@ -135,17 +150,13 @@ header {
         padding-top: 1.2rem;
     }
 
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
+    
 
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
+    
 
     .open {
         display:block ;
+        height: 100vh;
     }
 
     .mobile-menu-icon {
