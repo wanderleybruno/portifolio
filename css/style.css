@@ -77,10 +77,11 @@ header {
 }
 
 .botao-contato button {
-    width: 150px;
-    height: 40px;
+    width: 9.25rem;
+    height: 2rem;
     border-radius: 25px;
     background-color: #7984e9;
+
     
 }
 
@@ -91,7 +92,7 @@ header {
 
 
 .center {
-    background-color: rgba(128, 128, 128, 0.26);
+    background-color: rgba(71, 70, 70, 0.164);
     width: 100%;
     max-width: 1400px;
     height: auto;
@@ -187,12 +188,14 @@ header {
     position: absolute;
     
     
+    
 }
 
 .sobre-mim h1 {
     color: white;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
+    font-weight: normal;
     font-family: "IBM Plex Mono", monospace;
     margin-top: -80px;
     
@@ -220,29 +223,31 @@ header {
 .projetos h1 {
     color: white;
     font-family: "IBM Plex Mono", monospace;
-    font-size: 48px;
+    font-size: 3rem;
+    font-weight: normal;
     text-align: center;
     margin-top: 350px;
 }
 
 .projetos .cards {
     width: 90%;
-    margin: 50px auto;
+    margin: 120px auto;
     background-color: rgba(156, 160, 156, 0);
     
 
 }
 
 .projetos .card {
-    width: 340px;
-    height: 370px;
+    width: 20rem;
+    height: 21rem;
     background-color: rgba(128, 128, 128, 0.548);
     border-radius: 50px;
     margin: 0 50px;
     background-image: url('../image/projeto01.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top right;
+    position: relative;
 }
 
 
@@ -257,14 +262,18 @@ header {
     width: 50%;
     max-width: 1000px;
     margin: -320px 420px;
-    position: absolute;
+    
  
 }
 
 .projetos .card:hover {
-    opacity: .2;
+    opacity: 0.3;
+    transform: scale(1.04);
+    transition: .5s;
     
 }
+
+
 
 @media screen and (max-width:1050px) {
 
