@@ -304,16 +304,17 @@ section.inicio {
    
     .contato-botao button {
         background-color: #7984e9;
-        width: 45%;
+        width: 50%;
         padding: 10px;
         border-radius: 25px;
         display: block;
         margin: 50px auto;
+        border: none;
         
     }
 
     .contato-botao button a {
-        
+        font-size: 1.2rem;
         color: white;
         text-decoration: none;
         font-weight: 700;
@@ -433,6 +434,7 @@ section.inicio {
         background-color: #7984e9;
         margin: 230px -285px;
         border: none;
+        
         
     }
 
