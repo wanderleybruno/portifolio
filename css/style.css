@@ -429,8 +429,11 @@ section.inicio {
 
    
     input#botao-projetos {
-        width: 8rem;
-        height: 1.8rem;
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.3rem;
+        font-family: monospace;
         background-color: #7984e9;
         margin: 230px -285px;
         border: none;
