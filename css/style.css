@@ -305,15 +305,16 @@ header {
    
     .contato-botao button {
         background-color: #7984e9;
-        width: 30%;
+        width: 45%;
         padding: 10px;
         border-radius: 25px;
         display: block;
-        margin: 10px auto;
+        margin: 50px auto;
         
     }
 
     .contato-botao button a {
+        
         color: white;
         text-decoration: none;
         font-weight: 700;
@@ -327,6 +328,7 @@ header {
     }
 
     .mobile-menu-icon button {
+        
         background: transparent;
         border: none;
         cursor: pointer;
@@ -344,12 +346,20 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        margin-top: 50px;
         
+    
+    }
+
+    .mobile-menu ul li a {
+        color: white;
+        text-decoration: none;
     }
 
     .mobile-menu .nav-item {
         display: block;
-        padding-top: 1.2rem;
+        padding-top: 2.5rem;
+        transition: 1.3s;
     }
 
     
