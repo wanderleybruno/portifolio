@@ -277,6 +277,10 @@ header {
 
 @media screen and (max-width:1050px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
     header {
         width: 100vw;
     }
@@ -326,6 +330,8 @@ header {
         background: transparent;
         border: none;
         cursor: pointer;
+        margin-right: -20px;
+        
     }
 
     .mobile-menu-icon img {
