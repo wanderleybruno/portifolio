@@ -183,8 +183,8 @@ section.inicio {
 .sobre-mim {
     width: 100%;
     max-width: 1440px;
-    margin: -100px auto;
-    position: absolute;
+    margin: -190px auto;
+    position: relative;
     
     
     
@@ -192,14 +192,16 @@ section.inicio {
 
 .sobre-mim h1 {
     color: white;
-    text-align: center;
     font-size: 3rem;
     font-weight: normal;
     font-family: "IBM Plex Mono", monospace;
-    margin-top: -80px;
+    margin: -390px 360px;
+    position: absolute;
     
     
 }
+
+
 
 .img-sobre-mim img  {
     margin: 110px 90px;
@@ -225,45 +227,30 @@ section.inicio {
     font-size: 3rem;
     font-weight: normal;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 450px;
 }
 
 .projetos .cards {
-    width: 90%;
-    margin: 120px auto;
-    background-color: rgba(156, 160, 156, 0);
-    
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
 
 }
 
 .projetos .card {
-    width: 20rem;
-    height: 21rem;
+    width: 250px;
+    height: 250px;
     background-color: rgba(128, 128, 128, 0.548);
     border-radius: 50px;
-    margin: 0 50px;
+    margin: 0 100px;
     background-image: url('../image/projeto01.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: center;
     position: relative;
 }
 
-
-
-.projetos .card1 p {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    font-family: "IBM Plex Mono", monospace;
-    text-align: justify;
-    width: 50%;
-    max-width: 1000px;
-    margin: -320px 420px;
-    
- 
-}
 
 .projetos .card:hover {
     opacity: 0.3;
@@ -456,42 +443,51 @@ section.inicio {
 
     .img-sobre-mim img {
         display: block;
-        margin: -90px auto;
+        margin: -120px auto;
         width: 170px;
+    }
+
+    .titulo-sobre-mim h1 {
+        text-align: center;
+        font-size: 25px;
+        background-color: rgba(240, 255, 255, 0.144);
+        padding: 10px;
+        width: 100vw;
+    
     }
 
     .sobre-mim p {
         width: 90%;
-        margin: -120px auto;
-    }
-
-    section.projetos {
-        margin-top: 750px;
-        display: block;
-        
+        margin: 250px auto;
     }
 
     .projetos h1 {
+        margin: 0 auto;
         font-size: 25px;
-        background-color: rgba(240, 255, 255, 0.144);
+        background-color: rgba(240, 255, 255, 0.144) ;
         padding: 10px;
-
-        
     }
 
-    .projetos .card {
+    .projetos .cards {
+        width: 100vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .projetos .cards .card {
         width: 250px;
         height: 250px;
-        margin: -40px auto;
-       
-        
+        background-color: rgba(128, 128, 128, 0.548);
+        border-radius: 50px;
+        background-image: url('../image/projeto01.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto; /* Centraliza o elemento */
     }
 
-    
   
-
-
-
     
 
    
