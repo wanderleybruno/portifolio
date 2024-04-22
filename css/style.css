@@ -91,18 +91,7 @@ header {
 }
 
 
-.center {
-    background-color: rgba(71, 70, 70, 0.164);
-    width: 100%;
-    max-width: 1400px;
-    height: auto;
-    position: relative;
-   
-    width: 100%; /* Ocupa toda a largura disponível */
-    margin: 80px 0; /* Ajusta a margem para centralizar verticalmente */
-    
-    
-}
+
 
 section.inicio {
     display: flex;
@@ -473,6 +462,7 @@ section.inicio {
         text-align: center;
         display: flex;
         justify-content: center;
+        margin: 30px auto;
     }
 
     .projetos .cards .card {
@@ -485,6 +475,12 @@ section.inicio {
         background-repeat: no-repeat;
         background-position: center;
         margin: auto; /* Centraliza o elemento */
+    }
+
+    .projetos .cards .card p {
+        text-align: justify;
+        margin: 290px auto;
+        color: white;
     }
 
   
