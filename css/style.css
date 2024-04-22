@@ -435,36 +435,30 @@ section.inicio {
 
     .container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column; /* Alteração para empilhar os cards verticalmente */
+        align-items: center; /* Centralizar os cards na horizontal */
         padding: 20px;
         margin: 30px auto;
       }
     
       .card {
-        width: calc(33.33% - 20px);
-        background-color: #6aa7e0;
+        width: calc(100% - 40px); /* Ajuste da largura para ocupar toda a largura disponível */
+        background-color: #f0f0f0;
         border-radius: 8px;
         margin-bottom: 20px;
         overflow: hidden;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-
-      .card p {
-        padding: 20px;
         text-align: center;
       }
     
-      .card a {
-        display: block;
-        text-decoration: none;
-        color: #ffffff;
-        transition: background-color 0.3s ease;
+      .card p {
+        padding: 20px;
+        margin: 0; /* Remover margem padrão do parágrafo */
       }
     
-      .card a:hover {
+      .card-description {
+        padding: 10px;
         background-color: #ddd;
-        
       }
   
     
