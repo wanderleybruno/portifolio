@@ -219,34 +219,10 @@ section.inicio {
     margin-top: 450px;
 }
 
-.projetos .cards {
-
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-
-}
-
-.projetos .card {
-    width: 250px;
-    height: 250px;
-    background-color: rgba(128, 128, 128, 0.548);
-    border-radius: 50px;
-    margin: 0 100px;
-    background-image: url('../image/projeto01.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-}
 
 
-.projetos .card:hover {
-    opacity: 0.3;
-    transform: scale(1.04);
-    transition: .5s;
-    
-}
+
+
 
 
 
@@ -457,32 +433,26 @@ section.inicio {
         padding: 10px;
     }
 
-    .projetos .cards {
-        width: 100vw;
-        text-align: center;
+    .container {
         display: flex;
-        justify-content: center;
-        margin: 30px auto;
-    }
-
-    .projetos .cards .card {
-        width: 250px;
-        height: 250px;
-        background-color: rgba(128, 128, 128, 0.548);
-        border-radius: 50px;
-        background-image: url('../image/projeto01.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: auto; /* Centraliza o elemento */
-    }
-
-    .projetos .cards .card p {
-        text-align: justify;
-        margin: 290px auto;
-        color: white;
-    }
-
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+      }
+    
+      .card {
+        width: calc(33.33% - 20px);
+        background-color: #f0f0f0;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    
+      .card p {
+        padding: 20px;
+        text-align: center;
+      }
   
     
 
