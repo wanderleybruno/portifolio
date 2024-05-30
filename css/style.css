@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    box-shadow: 2px 2px 19px black;
+    
     width: 100vw;
 
 }
@@ -258,11 +258,9 @@ section.inicio {
     }
 
     header {
-        width: 100vw;
+        width: 100%;
     }
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
+    
 
     .logo img {
          width: 80px;
