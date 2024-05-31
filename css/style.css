@@ -41,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     width: 120px;
+    margin-top: 6px;
 }
 
 .nav-list {
@@ -95,10 +96,9 @@ header {
 
 section.inicio {
     display: flex;
+    padding: 0 5%;
  
 }
-
-
 
 .eu-sou {
     
@@ -134,13 +134,14 @@ section.inicio {
 
 .icon-coder {
     position: relative;
-    margin: 30px 166px ;
+    padding: 40px 25px;
     
   
 }
 
 .icon-coder img {
     width: 300px;
+    padding: 2%;
  
 }
 
@@ -157,13 +158,17 @@ section.inicio {
     border-radius: 7px;
     background-color:#535EC2 ;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 2px;
+    
     
     
 }
 
 #botao-projetos:hover {
-
+    transform: scale(0.95);
+    transition: 0.3s;
     background-color: #7984e9;
     cursor: pointer;
 
@@ -174,6 +179,7 @@ section.inicio {
     max-width: 1440px;
     margin: -190px auto;
     position: relative;
+    padding: 0 6%;
     
     
     
