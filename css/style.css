@@ -25,6 +25,10 @@ body {
     /* overflow-x: hidden;  */
 }
 
+.center {
+    max-width: 1200px;
+}
+
 header {
     
     width: 100%;
@@ -93,20 +97,18 @@ header {
 
 
 
-
 section.inicio {
     display: flex;
-    padding: 0 2%;
+    
+    
  
 }
 
 .eu-sou {
     
     color: white;
-    display: flex;
     flex-direction: column;
-    position: relative;
-    margin: 70px auto;
+    margin: 70px 150px ;
     line-height: 79px;
     
 }
@@ -135,6 +137,7 @@ section.inicio {
 .icon-coder {
     position: relative;
     padding: 40px 20px;
+    margin: 0 600px;
     
   
 }
@@ -142,6 +145,7 @@ section.inicio {
 .icon-coder img {
     width: 250px;
     padding: 2%;
+    margin: 0 -600px;
  
 }
 
@@ -151,10 +155,9 @@ section.inicio {
 
 #botao-projetos {
     width: 165px;
-    height: 39px;
+    height: 40px;
+    margin: 327px -690px;
     
-    position: relative;
-    margin: 327px -620px;
     border-radius: 7px;
     background-color:#535EC2 ;
     color: white;
@@ -179,7 +182,7 @@ section.inicio {
     max-width: 1440px;
     margin: -190px auto;
     position: relative;
-    padding: 0 6%;
+    padding: 0 5%;
     
     
     
