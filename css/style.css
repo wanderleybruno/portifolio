@@ -85,9 +85,15 @@ header {
     width: 9.25rem;
     height: 2rem;
     border-radius: 25px;
-    background-color: #7984e9;
+    background-color: #535EC2;
+    border: none;
+}
 
-    
+.botao-contato button:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+    background-color: #7984e9;
+    cursor: pointer;
 }
 
 .botao-contato a {
