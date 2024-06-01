@@ -265,6 +265,10 @@ section.inicio {
     padding: 20px;
   }
 
+  .projetos .container {
+    margin-top: 50px;
+  }
+
   .card {
     width: 300px; /* Largura fixa para os cards */
     height: 300px;
@@ -280,7 +284,7 @@ section.inicio {
   .card:hover {
     transform: scale(0.95);
     transition: 0.2s;
-    background-color: #959eebdc;
+    background-color: #a0a8ecdc;
   }
 
   .card p {
@@ -290,7 +294,62 @@ section.inicio {
 
   .card-description {
     padding: 10px;
-    background-color: #ddd;
+    
+  }
+
+  .card a {
+    text-decoration: none;
+    
+  }
+
+  .experiencias h1 {
+    
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 104px;
+    
+  }
+
+ section.experiencias {
+    margin: 50px 0;
+    color: white;
+    text-align: center;
+
+ }
+
+ .container .icons-redes {
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+ }
+
+ .container .icon-rede {
+    padding: 30px;
+ }
+
+
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(95, 157, 228, 0.568);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+  }
+
+
+  footer p {
+   color: white; 
+   text-align: center;
+   margin-top: 100px;
   }
 
 
@@ -501,7 +560,7 @@ section.inicio {
 
     .container {
         display: flex;
-        flex-direction: column; /* Alteração para empilhar os cards verticalmente */
+        
         align-items: center; /* Centralizar os cards na horizontal */
         padding: 20px;
         margin: 30px auto;
