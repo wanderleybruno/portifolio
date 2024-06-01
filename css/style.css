@@ -28,6 +28,7 @@
     text-align: center;
     padding: 20px;
     animation: txt 6s alternate infinite;
+    color: white;
 }
 
 @keyframes txt {
