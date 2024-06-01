@@ -27,7 +27,7 @@ body {
 
 header {
     
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -96,7 +96,7 @@ header {
 
 section.inicio {
     display: flex;
-    padding: 0 5%;
+    padding: 0 2%;
  
 }
 
@@ -106,7 +106,7 @@ section.inicio {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 60px 100px;
+    margin: 70px auto;
     line-height: 79px;
     
 }
@@ -134,13 +134,13 @@ section.inicio {
 
 .icon-coder {
     position: relative;
-    padding: 40px 25px;
+    padding: 40px 20px;
     
   
 }
 
 .icon-coder img {
-    width: 300px;
+    width: 250px;
     padding: 2%;
  
 }
@@ -152,9 +152,9 @@ section.inicio {
 #botao-projetos {
     width: 165px;
     height: 39px;
-    display: block;
+    
     position: relative;
-    margin: 307px -631px;
+    margin: 327px -620px;
     border-radius: 7px;
     background-color:#535EC2 ;
     color: white;
