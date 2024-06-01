@@ -16,6 +16,30 @@
     --font-principal: "IBM Plex Mono", monospace;
 }
 
+.aviso {
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    text-align: center;
+}
+
+.aviso h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    animation: txt 6s alternate infinite;
+}
+
+@keyframes txt {
+    from {
+        transform: translateX(100px);
+      }
+      to {
+        transform: translateX(-300px);
+      }
+}
+
+
 body {
     
     display: flex;
