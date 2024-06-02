@@ -86,6 +86,7 @@ header {
     border-radius: 25px;
     background-color: #535EC2;
     border: none;
+    color: white;
 }
 
 .botao-contato button:hover {
