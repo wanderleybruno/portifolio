@@ -396,6 +396,12 @@ section.inicio {
     background-color: #777;
 }
 
+.footer-section ul {
+        
+    list-style: none;
+}
+
+
 
 
 @media screen and (max-width:1050px) {
@@ -674,7 +680,16 @@ section.inicio {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
-    
+
+   
+    .container {
+        display: flex;
+        align-items: stretch;
+        padding: 20px;
+        margin: 30px auto;
+    }
+}
+
     
     .footer-section {
         
@@ -682,25 +697,25 @@ section.inicio {
         margin: 30px;
         width: 100%;
     }
+
+    .footer-section ul {
+        
+        list-style: none;
+    }
     
     .footer-section h4 {
         margin-bottom: 10px;
         font-size: 1.2em;
+        
     }
     
-    .footer-section p, .footer-section a {
-        color: #bbb;
-        font-size: 0.9em;
-        text-decoration: none;
-    }
-    
-    .footer-section a:hover {
-        text-decoration: underline;
-    }
-    
+   
     .footer-section form {
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
+        
+        
     }
     
     .footer-section input[type="email"] {
