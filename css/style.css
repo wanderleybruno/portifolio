@@ -581,7 +581,7 @@ section.inicio {
     .sobre-mim h1 {
         font-size: 25px;
         background-color: rgba(240, 255, 255, 0.144);
-        padding: 10px;
+        padding: 20px;
         margin: 160px auto;
         text-align: center;
         display: block;
@@ -609,7 +609,7 @@ section.inicio {
         margin: 0 auto;
         font-size: 25px;
         background-color: rgba(240, 255, 255, 0.144) ;
-        padding: 10px;
+        padding: 20px;
     }
 
     .container {
@@ -649,7 +649,7 @@ section.inicio {
         width: 100%;
         font-size: 25px;
         background-color: rgba(240, 255, 255, 0.144);
-        padding: 10px;
+        padding: 20px;
         margin: -20px auto;
         text-align: center;
         
@@ -665,6 +665,64 @@ section.inicio {
         width: 50px;
         
       }
+
+      footer {
+        background-color:#535EC2;
+        color: #fff;
+        padding: 10px 0;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    
+    .footer-section {
+        
+        flex: 1;
+        margin: 30px;
+        width: 100%;
+    }
+    
+    .footer-section h4 {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    
+    .footer-section p, .footer-section a {
+        color: #bbb;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-section form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-section input[type="email"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .footer-section button {
+        
+        padding: 10px;
+        background-color: #555;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .footer-section button:hover {
+        background-color: #777;
+    }
   
     
 
