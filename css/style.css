@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #080c31;
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
 }
 
 .center {
