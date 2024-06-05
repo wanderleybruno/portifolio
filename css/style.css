@@ -254,16 +254,18 @@ section.inicio {
     background-color: #f0f0f0;
     border-radius: 8px;
     margin: 10px; /* Espaçamento entre os cards */
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     
   }
 
   .card:hover {
-    transform: scale(0.95);
+    transform: scale(0.99);
     transition: 0.2s;
     background-color: #a0a8ecdc;
+    border: 5px solid rgb(34, 157, 194);
+    box-shadow: 1px 1px 20px 2px rgb(34, 157, 194);
+    
   }
 
   .card p {
