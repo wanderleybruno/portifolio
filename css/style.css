@@ -29,6 +29,7 @@ body {
 .center {
     max-width: 1100px;
     
+    
 }
 
 header {
@@ -244,11 +245,9 @@ section.inicio {
     padding: 20px;
   }
 
-  .projetos .container {
-    margin-top: 50px;
-    
-  }
 
+
+ 
   .card {
     width: 300px; /* Largura fixa para os cards */
     height: 300px;
@@ -270,9 +269,11 @@ section.inicio {
   }
 
   .card p {
-    padding: 10px;
+    
     margin: 0; /* Remover margem padrão do parágrafo */
     color: rgb(0, 0, 0);
+    margin-top: 120px;
+    width: 100%;
   }
 
 
@@ -673,6 +674,19 @@ section.inicio {
         margin: 30px auto;
     }
 }
+
+@media screen and (max-width:430px) {
+
+    .projetos .card {
+        
+        width: 150px;
+        height: 150px;
+
+    }
+
+
+
+} 
 
     
     .footer-section {
