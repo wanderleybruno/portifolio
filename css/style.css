@@ -278,10 +278,7 @@ section.inicio {
 
 
 
-  .card-description {
-    padding: 10px;
-    
-  }
+
 
   .card a {
     text-decoration: none;
@@ -677,12 +674,34 @@ section.inicio {
 
 @media screen and (max-width:430px) {
 
+   
+
     .projetos .card {
         
         width: 150px;
         height: 150px;
-
+        background-color: #f0f0f0;
+        border-radius: 8px;
+        margin: 10px; /* Espaçamento entre os cards */
+        text-align: center;
+    
     }
+
+    .card p {
+    
+        margin-top: 30px;
+        color: rgb(0, 0, 0);
+        width: 100%;
+      }
+
+      .card:hover {
+        
+        color: white;
+        padding: 0;
+        border: 2px solid rgb(97, 201, 233);
+        box-shadow: 1px 1px 25px 2px rgba(132, 226, 255, 0.514);
+        
+      }
 
 
 
