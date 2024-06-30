@@ -703,6 +703,17 @@ section.inicio {
         
       }
 
+      .contato-botao button {
+        color: white;
+        
+      }
+
+      .contato-botao a {
+        text-decoration: none;
+      }
+
+  
+
 
 
 } 
